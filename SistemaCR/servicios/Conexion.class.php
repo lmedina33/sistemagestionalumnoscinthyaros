@@ -1,0 +1,43 @@
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'] . "/SistemaCR/configuracion/ConfiguracionBD.class.php");
+/**
+ * Description of Conexionclass
+ *
+ * @author gerardobarcia
+ */
+class Conexionclass {
+
+    private $configuracion;
+
+    private $conexion;
+
+    public function __construct() {
+        $this->configuracion = ConfiguracionBDclass::getInstance();
+    }
+
+    /**
+     *Metodo para conctar con la base de datos
+     * @return <Conexion> la conexion con la base de datos
+     */
+    function conectarBaseDatos () {
+        $this->conexion = mysql_connect ($this->configuracion->getDatabaseURL(),
+                $this->configuracion->getDatabaseUserName(),
+                $this->configuracion->getDatabasePWord());
+        $result = mysql_select_db ($this->configuracion->getDatabaseName());
+        if (!$result) {
+            die ("<script>location.href='error.php'</script>");
+        }
+        return $this->conexion;
+    }
+    /**
+     * Metodo para cerrar la conexion con la base de datos
+     */
+    function cerrarConexion () {
+        mysql_close($this->conexion);
+    }
+
+    public function getConexion() {
+        return $this->conexion;
+    }
+}
+?>

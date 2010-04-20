@@ -1,6 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT']. '/SistemaCR/configuracion/Conexion.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] .'/SistemaCR/configuracion/Bitacora.class.php';
+require_once $_SERVER['DOCUMENT_ROOT']. '/SistemaCR/servicios/Conexion.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] .'/SistemaCR/servicios/Bitacora.class.php';
 /**
  * Description of TransaccionBDclass
  * Clase para el manejo de las transacciones con la base de datos

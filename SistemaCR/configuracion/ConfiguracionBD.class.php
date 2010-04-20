@@ -27,7 +27,7 @@ class ConfiguracionBDclass {
     private $databaseURL = "localhost";
     private $databaseUserName = "root";
     private $databasePWord = "admin";
-    private $databaseName = "makoro";
+    private $databaseName = "sistemaGestionCynthiaRos";
 
     public function getDatabaseURL() {
         return $this->databaseURL;

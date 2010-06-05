@@ -1,0 +1,11 @@
+INSERT INTO `ALUMNO_has_VACUNA` (`ALUMNO_expediente`,
+            `VACUNA_id`) VALUES ('01017079793'
+                                 '8',);  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 fecha: 2010-04-22 hora:15:15:11INSERT INTO `ALUMNO_has_VACUNA` (`ALUMNO_expediente`,
+            `VACUNA_id`) VALUES ('01017079793'
+                                 '8');  Column count doesn't match value count at row 1 fecha: 2010-04-22 hora:15:15:50INSERT INTO `ALUMNO_has_VACUNA` (`ALUMNO_expediente`,
+            `VACUNA_id`) VALUES ('01017079793'
+                                 '8');  Column count doesn't match value count at row 1 fecha: 2010-04-22 hora:15:15:51INSERT INTO `ALUMNO_has_VACUNA` (`ALUMNO_expediente`,
+            `VACUNA_id`) VALUES ('01017079793'
+                                 8  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '8' at line 3 fecha: 2010-04-22 hora:15:15:48INSERT INTO `ALUMNO_has_VACUNA` (`ALUMNO_expediente`,
+            `VACUNA_id`) VALUES ('01017079793,'
+                                 8)  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '8)' at line 3 fecha: 2010-04-22 hora:15:15:53

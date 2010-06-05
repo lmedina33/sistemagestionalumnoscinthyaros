@@ -32,7 +32,7 @@ class TransaccionBDclass {
         $result = mysql_query($query,$link);
         if (!$result) {
             $mensaje = $query. '  '.mysql_error();
-            $this->bitacora->escribirMensajeBD($mensaje,1);
+            $this->bitacora->escribirMensajeTxt($mensaje);
         }
         $this->conexion->cerrarConexion();
         return $result;

@@ -30,6 +30,7 @@ class Bitacoraclass {
  * @return <instancia> la instancia de la clase
  */
     public static function getInstance() {
+        date_default_timezone_set('America/Caracas');
         if( ! (self::$_instance instanceof self) ) {
             self::$_instance = new self();
         }

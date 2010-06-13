@@ -1,0 +1,105 @@
+<?php
+//Datos alumno
+$expendiente = $_POST['numExpediente'];
+$cedula = $_POST['cedula'];
+$nombres = $_POST['nombres'];
+$apellidos = $_POST['apellidos'];
+$sexo = $_POST['sexo'];
+$fechaNac = $_POST['fechaNac'];
+$lugarNac = $_POST['lugarNac'];
+$telefonoUno = $_POST['telefonoUno'];
+$telefonoDos = $_POST['telefonoDos'];
+$telefonoTres = $_POST['telefonoTres'];
+$pNac = $_POST['pNac'];
+$constV = $_POST['constV'];
+$cedulaRecibida = $_POST['cedulaRecibida'];
+$fotoR = $_POST['fotoR'];
+$fotoA = $_POST['fotoA'];
+// Datos madre
+$parentesco1 = $_POST['parentesco1'];
+$nombreMadre = $_POST['nombreMadre'];
+$apellidosMadre = $_POST['apellidosMadre'];
+$cedulaMadre = $_POST['cedulaMadre'];
+$edoCivilMadre = $_POST['edoCivilMadre'];
+$fechaNacMadre = $_POST['fechaNacMadre'];
+$telefonoUnoMadre = $_POST['telefonoUnoMadre'];
+$telefonoDosMadre = $_POST['telefonoDosMadre'];
+$telefonoTresMadre = $_POST['telefonoTresMadre'];
+$gradoInstruccionMadre = $_POST['gradoInstruccionMadre'];
+$trabajaMadre = $_POST['trabajaMadre'];
+$descripcionTrabajoMadre = $_POST['descripcionTrabajoMadre'];
+//Datos Padre
+$parentesco2 = $_POST['parentesco2'];
+$nombresPadre = $_POST['nombresPadre'];
+$apellidosPadre = $_POST['apellidosPadre'];
+$cedulaPadre = $_POST['cedulaPadre'];
+$edoCivilPadre = $_POST['edoCivilPadre'];
+$direccionPadre = $_POST['direccionPadre'];
+$fechaNacPadre = $_POST['fechaNacPadre'];
+$telefonoUnoPadre = $_POST['telefonoUnoPadre'];
+$telefonoDosPadre = $_POST['telefonoDosPadre'];
+$telefonoTresPadre = $_POST['telefonoTresPadre'];
+$trabajaPadre = $_POST['trabajaPadre'];
+$descripcionTrabajoPadre = $_POST['descripcionTrabajoPadre'];
+//Otro responsable del alumno
+$parentesco3 = $_POST['parentesco3'];
+$nombresOtro = $_POST['nombresOtro'];
+$apellidosOtro = $_POST['apellidosOtro'];
+$cedulaOtro = $_POST['cedulaOtro'];
+$edoCivilOtro = $_POST['edoCivilOtro'];
+$direccionOtro = $_POST['direccionOtro'];
+$fechaNacOtro = $_POST['fechaNacOtro'];
+$telefonoUnoOtro = $_POST['telefonoUnoOtro'];
+$telefonoDosOtro = $_POST['telefonoDosOtro'];
+$telefonoTresOtro = $_POST['telefonoTresOtro'];
+$gradoInstruccionOtro = $_POST['gradoInstruccionOtro'];
+// Procedencia alumno
+$procedenciaAlumno = $_POST['procedenciaAlumno'];
+$otroProcedencia = $_POST['otroProcedencia'];
+$vivePapa = $_POST['vivePapa'];
+$viveMama = $_POST['viveMama'];
+$viveHermano = $_POST['viveHermano'];
+$viveHermana = $_POST['viveHermana'];
+$viveAbuelo = $_POST['viveAbuelo'];
+$viveAbuela = $_POST['viveAbuela'];
+$viveTio = $_POST['viveTio'];
+$viveTia = $_POST['viveTia'];
+$viveOtro = $_POST['viveOtro'];
+$cuidaAlumno = $_POST['cuidaAlumno'];
+// Emergencias
+$emergenciaLLamara = $_POST['emergenciaLLamara'];
+$telefonoUnoEmergencia = $_POST['telefonoUnoEmergencia'];
+$emergenciaLLevara = $_POST['emergenciaLLevara'];
+$fiebreAlta = $_POST['fiebreAlta'];
+// Salud
+$activo = $_POST['activo'];
+$tranquilo = $_POST['tranquilo'];
+$sociable = $_POST['sociable'];
+$comunicativo = $_POST['comunicativo'];
+$esAsmatico = $_POST['esAsmatico'];
+$esAlergico = $_POST['esAlergico'];
+$medicamentos = $_POST['medicamentos'];
+$enfermedades = $_POST['enfermedades'];
+$vaSicologo = $_POST['vaSicologo'];
+$vaPsicopedagogo = $_POST['vaPsicopedagogo'];
+$acudeNeourologo = $_POST['acudeNeourologo'];
+$acudeterapistal = $_POST['acudeterapistal'];
+$motivoAcude = $_POST['motivoAcude'];
+$lugarAcude = $_POST['lugarAcude'];
+// Vacunas
+$bgc = $_POST['bgc'];
+$polio = $_POST['polio'];
+$triple = $_POST['triple'];
+$antiva = $_POST['antiva'];
+$sarampion = $_POST['sarampion'];
+$rubeola = $_POST['rubeola'];
+$meningitis = $_POST['meningitis'];
+$hepatitis = $_POST['hepatitis'];
+$fiebre = $_POST['fiebre'];
+$amarilla = $_POST['amarilla'];
+$lechina = $_POST['lechina'];
+$otrasVacunas = $_POST['otrasVacunas'];
+// Trasnporte
+$transporte = $_POST['transporte'];
+$transporte2 = $_POST['transporte2'];
+?>

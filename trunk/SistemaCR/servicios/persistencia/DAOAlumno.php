@@ -33,11 +33,11 @@ class DAOAlumno {
         return $alumnoR;
     }
 
-    function agregarVacuna(Vacuna $vacuna, Alumno $alumno){
+    function agregarVacunaAlumno($idVacuna, $expediente){
         $resultado = false;
         $query = "INSERT INTO 'ALUMNO_has_VACUNA' ('ALUMNO_expediente',
-            'VACUNA_id') VALUES ('".$alumno->getExpediente()."',
-                                 " . $vacuna->getId().")";
+            'VACUNA_id') VALUES ('".$expediente."',
+                                 " . $idVacuna.")";
         $resultado = $this->transaccion->realizarTransaccion($query);
         return $resultado;
     }

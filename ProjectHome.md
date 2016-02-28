@@ -1,0 +1,1 @@
+El sistema de gestión de alumnos y profesores para el centro de educación incial Cynthia Rosenberg es parte de una actualización tecnológica en la institución que busca automatizar los procesos de inscripción de los alumnos, así como la inclusión de la gestión del personal y estadísticas de valor para el recinto educativo.
